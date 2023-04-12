@@ -1,0 +1,289 @@
+
+
+
+
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #cef1e3; 
+}
+
+
+
+.body{
+    background-color: bisque;
+ color: black;
+ font: weight 400px;
+
+}
+ 
+
+    
+header{
+    width: 960px;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-weight: 600;
+   
+}
+header a{
+    color: rgb(0, 0, 1);
+    background-color: #bdd0a6 ;
+   
+    
+ 
+}
+header a img{
+  width:40px;
+  height: 40px;
+  vertical-align:middle;
+    margin-left: 12px;
+    margin-right: 8px;
+}
+main{
+    width: 960px;
+    margin: auto;
+}
+header nav a {
+    margin: 6px;
+    bottom:20px;
+    
+}
+
+#hero-banner{
+  background-image: url(img.css/perilago-norte-dique-potrerillos-43jpeg.webp);
+   background-size: cover;
+	height: 450px ;
+  margin: auto;
+  width: 960px;
+  background-position: center ;
+
+    align-items: center;
+    display: flex;
+    justify-content:center;
+	
+   
+}
+#hero-banner h1{
+ color: black;
+ font-size: 35px;
+ margin-left: 100px;
+}
+#PROMOS{
+    height: 500px;
+   align-items: center;
+   margin-top: 100px;
+    background-color: rgb(169, 209, 196);
+    border: black ;
+    display: flex;
+    justify-content: space-evenly;
+    }
+div{
+    
+    font-size: 20px;
+
+}
+#PROMOS h2{
+    margin:auto;
+    font-size: 20px;
+    align-items: center;
+    margin-top:2px;
+   border: black 3px solid;
+  
+}
+
+#PROMOS img {
+    margin-left: 15px;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom:10px;
+}
+
+
+#PROMOS article {
+    width: 30000px;
+    font-size: 16px;
+}
+#PROMOS section{
+    margin-top: 22px;
+}
+
+#SERVICIOS{
+    width: 765px;
+    margin: 52px auto 0px auto;
+    margin-top: 52px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: dashed;
+}
+#SERVICIOS h2 {
+    width: 100%; 
+    text-align: center;
+   
+}
+#SERVICIOS a{
+    border:20px solid #a9d672;
+    width: 160px;
+    height: 140px;
+    display: block;
+    margin: 47px;
+    border-radius: 12px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    
+}
+#SERVICIOS a span{
+   font-size: 60px;
+   margin: 22px 52px;
+}
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #21b053; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #21b053; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #21b053; 
+  border-color: #21b053; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #036627;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+#Localizacion{
+  margin:auto;
+  width: 960px;
+  margin-bottom: 20px;
+  border: #0e0e0e 2px;
+ 
+}
+
+
+footer{
+width: 960px;
+margin: auto;
+height: 160px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color:#9ec4ba
+
+}
+footer a {
+    color: rgb(5, 6, 6);
+    border-bottom: 30px;  
+  }
+footer img {
+  width: 50px;
+  height: 50px;
+ 
+}
+   
